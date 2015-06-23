@@ -1,0 +1,23 @@
+{
+  "name": "passport-producteca",
+  "version": "0.0.1",
+  "description": "Producteca OAuth2 strategy for Passport.",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "pkginfo": "0.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Parsimotion/passport-producteca"
+  },
+  "keywords": [
+    "passport",
+    "producteca",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": "Parsimotion",
+  "license": "MIT"
+}
