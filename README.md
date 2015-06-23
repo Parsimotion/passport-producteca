@@ -85,6 +85,7 @@ function ensureAuthenticated(req, res, next) {
 ```
 
 Example of the `user` object are:
+```json
 {  
    "_id": 3,
    "provider": "producteca",
@@ -109,6 +110,7 @@ Example of the `user` object are:
       "username": "pablo"
    }
 }
+```
 
 ## License
 
