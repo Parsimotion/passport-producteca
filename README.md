@@ -87,7 +87,7 @@ function ensureAuthenticated(req, res, next) {
 Example of the `user` object are:
 ```json
 {  
-   "_id": 3,
+   "id": 3,
    "provider": "producteca",
    "accessToken": "alskdjaklsjdflaskjfasl",
    "email": "pablo@gmail.com",
