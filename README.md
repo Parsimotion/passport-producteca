@@ -37,7 +37,7 @@ passport.use(new ProductecaStrategy({
     clientSecret: 'sarasasasa',
     callbackURL: 'http://aplicateca.com/auth/producteca/callback',
   },
-  function (accessToken, profile, done) {
+  function (accessToken, _, profile, done) {
     // + store/retrieve user from database, together with access token
     return done(null, profile); 
   }
