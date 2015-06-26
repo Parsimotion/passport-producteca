@@ -1,9 +1,10 @@
 {
   "name": "passport-producteca",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Producteca OAuth2 strategy for Passport.",
   "main": "./lib/index.js",
   "dependencies": {
+    "passport-oauth": "^1.0.0",
     "pkginfo": "0.2.x"
   },
   "repository": {
