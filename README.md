@@ -34,7 +34,7 @@ var ProductecaStrategy = require('passport-producteca').Strategy;
 
 passport.use(new ProductecaStrategy({
     clientID: 'aplicateca-01fsk',
-    clientSecret: 'sarasasasa',
+    clientSecret: 'NO_HARDCODED_SECRET_HERE',
     callbackURL: 'http://aplicateca.com/auth/producteca/callback',
   },
   function (accessToken, _, profile, done) {
