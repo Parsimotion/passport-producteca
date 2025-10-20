@@ -89,7 +89,7 @@ Example of the `user` object are:
 {  
    "id": 3,
    "provider": "producteca",
-   "accessToken": "alskdjaklsjdflaskjfasl",
+   "accessToken": "NO_HARDCODED_SECRET_HERE",
    "email": "pablo@gmail.com",
    "authorizations": [  
       {  
